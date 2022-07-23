@@ -1,0 +1,6 @@
+Tested by changing the file reorg hsa package version:1056300
+With package version greater than file reorg package version  hsa/hsa.h is used
+No warning message on build logs
+With package version lower than file reorg package version hsa.h is used
+Warning message observed on build logs
+hsa/hsa.h is used with invalid package version and also when no hsa pacakge found
